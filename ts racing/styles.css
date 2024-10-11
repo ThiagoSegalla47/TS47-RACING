@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(marcasdemoto/fundosite.jpg); 
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(marcasdemoto/fundosite.jpg);
+  padding: 10px 20px;
+}
+
+
+.logo {
+  height: 100px;
+}
+
+.title {
+  color: white;
+  font-style: italic;
+}
+
+
+.espaço {
+  height: 20px;
+  background-color: blue; 
+}
+
+.carousel-section {
+  margin: 50px 0;
+  background-image: url(marcasdemoto/fundosite.jpg);
+}
+
+.carousel-section h2 {
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  font-style: italic;
+}
+
+.carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.brands-section {
+  background-image: url(marcasdemoto/fundosite.jpg);
+  padding: 20px;
+  text-align: center;
+}
+
+.brands-section h2 {
+  color: #fff;
+  padding: 10px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.brand img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.products-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    row-gap: 20px; 
+    padding: 20px;
+    justify-items: center;
+}
+
+.product-card {
+  background-color: #8b8b8bc7;
+  color: white;
+  width: 300px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover;
+}
+
+.product-info {
+  padding: 15px;
+  text-align: start;
+}
+
+.product-info h3 {
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.product-info p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.232);
+  border-radius: 5px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #00ff00; 
+}
+
+.buy-button {
+  background-color: #00ff00; 
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: #00cc00; 
+}
+
+
+
+.footer {
+  background-color: #000; 
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 80px; 
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-center h3 {
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0;
+  font-style: italic;
+}
+
+.top-button {
+  background-color: #00f; 
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.top-button:hover {
+  background-color: #0044cc; 
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-right p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer-right p br {
+  margin-bottom: 5px;
+}
+
+
+
